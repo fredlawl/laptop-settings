@@ -1,3 +1,3 @@
-ACTION=="add", SUBSYSTEM=="usb", DRIVERS=="usb", ATTRS{idProduct}=="024f", ATTRS{idVendor}=="05ac", ATTR{power/wakeup}="enabled"
-ACTION=="add", SUBSYSTEM=="usb", DRIVERS=="usb", ATTRS{idProduct}=="0610", ATTRS{idVendor}=="05e3", ATTR{power/wakeup}="enabled"
-ACTION=="add", SUBSYSTEM=="serio", DRIVERS=="atkbd", ATTRS{description}=="i8042 KBD port", ATTR{power/wakeup}="enabled"
+ACTION=="add", ATTRS{idProduct}=="024f", ATTRS{idVendor}=="05ac", ATTR{power/wakeup}="enabled"
+ACTION=="add", ATTRS{idProduct}=="0610", ATTRS{idVendor}=="05e3", ATTR{power/wakeup}="enabled"
+ACTION=="add", ATTRS{description}=="i8042 KBD port", ATTR{power/wakeup}="enabled"
