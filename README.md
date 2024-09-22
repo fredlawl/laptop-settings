@@ -13,7 +13,7 @@ These are my generic settings that can be applied anywhere.
 
 `stow -t "/home/$USER" --dotfiles -v dotfiles`
 
-For speicifc sysetms:
+For specific systems:
 
 `stow -t "/home/$USER" --dotfiles -v dotfiles-*`
 
@@ -23,7 +23,7 @@ These are my generic settings that can be applied anywhere.
 
 `stow -t "/" -v system`
 
-For speicifc sysetms:
+For specific systems:
 
 `stow -t "/" -v system-*`
 
