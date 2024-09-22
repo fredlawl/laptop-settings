@@ -15,7 +15,7 @@ These are my generic settings that can be applied anywhere.
 
 For speicifc sysetms:
 
-`stow -t "/home/$USER" --dotfiles -v i3 tmux ...`
+`stow -t "/home/$USER" --dotfiles -v dotfiles-*`
 
 ## Installing system
 
