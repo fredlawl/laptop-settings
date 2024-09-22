@@ -19,10 +19,11 @@ For speicifc sysetms:
 
 ## Installing system
 
-Useful for specific systems. In the future, these would be split
-further into their own root-directories prefixed with `system-`.
+These are my generic settings that can be applied anywhere.
 
 `stow -t "/" -v system`
+
+For speicifc sysetms:
 
 `stow -t "/" -v system-*`
 
