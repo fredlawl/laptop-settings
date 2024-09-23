@@ -25,6 +25,8 @@ Dependencies:
 - feh
 - picom
 - gnome-screenshot
+- rofi
+- polybar
 
 ## Installing system
 

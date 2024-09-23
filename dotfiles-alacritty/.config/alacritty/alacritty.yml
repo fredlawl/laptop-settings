@@ -1,3 +1,5 @@
+import:
+  - ~/.config/alacritty/catppuccin-mocha.yml
 key_bindings:
     - { key: "N", mods: "Control|Shift", action: "CreateNewWindow" }
 font:
@@ -20,3 +22,4 @@ font:
   bold_italic:
     family: CaskaydiaCove Nerd Font Mono
     style: Bold Italic
+

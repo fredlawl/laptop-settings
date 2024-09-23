@@ -82,6 +82,8 @@ export TERM=xterm-256color vim
 export JAVA_HOME=/usr/bin/java
 export PAGER='less -r'
 export XDG_CONFIG_HOME=$HOME/.config
+export XDG_USER_CONFIG_DIR=$HOME/.config
+export XDG_CONFIG_DIRS=/etc/xdg
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
