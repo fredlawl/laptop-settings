@@ -17,6 +17,15 @@ For specific systems:
 
 `stow -t "/home/$USER" --dotfiles -v dotfiles-*`
 
+### dotfiles-i3
+
+Dependencies:
+
+- i3lock
+- feh
+- picom
+- gnome-screenshot
+
 ## Installing system
 
 These are my generic settings that can be applied anywhere.
