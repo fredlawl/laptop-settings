@@ -1,6 +1,7 @@
 key_bindings:
     - { key: "N", mods: "Control|Shift", action: "CreateNewWindow" }
 font:
+  size: 8
   normal:
     family: CaskaydiaCove Nerd Font Mono
     style: Regular
