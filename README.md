@@ -4,6 +4,8 @@
 
 ```sh
 sudo apt install \
+    fzf \
+    ripgrep \
     stow \
     vim \
     zsh
@@ -36,6 +38,19 @@ sudo apt install \
     polybar \
     rofi
 ```
+
+### dotfiles-nvim
+
+Dependencies:
+
+```sh
+sudo apt purge neovim
+git clone git@github.com:neovim/neovim.git
+cd neovim
+git checkout stable
+```
+
+Follow INSTALL instructions to build and install neovim.
 
 ## Installing system
 
