@@ -2,9 +2,13 @@
 
 ## Dependencies
 
-- stow (GNU stow)
-- vim
-- zsh
+```sh
+sudo apt install \
+    stow \
+    vim \
+    zsh
+```
+
 - [Oh-my-zsh](https://ohmyz.sh/)
 
 ## Dotfiles
@@ -17,16 +21,21 @@ For specific systems:
 
 `stow -t "/home/$USER" --dotfiles -v dotfiles-*`
 
+All `dotfiles-*` depend on `dotfiles`.
+
 ### dotfiles-i3
 
 Dependencies:
 
-- i3lock
-- feh
-- picom
-- gnome-screenshot
-- rofi
-- polybar
+```sh
+sudo apt install \
+    feh \
+    gnome-screenshot \
+    i3 \
+    i3lock \
+    polybar \
+    rofi
+```
 
 ## Installing system
 
