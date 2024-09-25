@@ -13,9 +13,11 @@ set enc=utf-8
 set fenc=utf-8
 set termencoding=utf-8
 
+set termguicolors
 set bg=dark
 set t_Co=256
-colorscheme simplifysimplify-dark
+" colorscheme simplifysimplify-dark
+colorscheme catppuccin_mocha
 syntax enable
 
 " Basic Settings
