@@ -45,6 +45,7 @@ Dependencies:
 
 ```sh
 sudo apt purge neovim
+sudo apt install fd-find lazygit luarocks
 git clone git@github.com:neovim/neovim.git
 cd neovim
 git checkout stable
