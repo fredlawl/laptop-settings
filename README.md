@@ -43,6 +43,8 @@ sudo apt install \
 
 Dependencies:
 
+**Install & setup neovim**:
+
 ```sh
 sudo apt purge neovim
 sudo apt install fd-find lazygit luarocks
@@ -52,6 +54,16 @@ git checkout stable
 ```
 
 Follow INSTALL instructions to build and install neovim.
+
+**Install & setup nvm**:
+
+Download & install from [here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
+
+```sh
+source ~/.zshrc
+nvm install node --lts
+nvm use --lts
+```
 
 ## Installing system
 
