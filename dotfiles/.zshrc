@@ -63,6 +63,8 @@ ENABLE_CORRECTION="true"
 # see 'man strftime' for details.
 HIST_STAMPS="yyyy-mm-dd"
 
+source $HOME/.config/zsh/themes/catppuccin-mocha.zsh
+
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
@@ -72,13 +74,14 @@ HIST_STAMPS="yyyy-mm-dd"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git tmux docker docker-compose ssh-agent
-	colored-man-pages colorize)
+  colored-man-pages colorize zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export TERM=xterm-256color vim
+export TERM=xterm-256color
+export COLORTERM=truecolor
 export JAVA_HOME=/usr/bin/java
 export PAGER='less -r'
 export XDG_CONFIG_HOME=$HOME/.config

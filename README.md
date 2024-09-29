@@ -9,6 +9,9 @@ sudo apt install \
     stow \
     vim \
     zsh
+
+# Install this after Oh-my-zsh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
 - [Oh-my-zsh](https://ohmyz.sh/)
