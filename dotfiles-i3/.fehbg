@@ -1,2 +1,2 @@
-#!/bin/sh
-feh --no-fehbg --bg-scale '~/Pictures/Wallpapers/background.jpg'
+#!/usr/bin/env bash
+exec feh --no-fehbg --bg-scale "${HOME}/Pictures/Wallpapers/background.jpg"
