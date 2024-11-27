@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+function chpwd() {
+    \. "$HOME/.local/bin/cwd.sh"
+}
+

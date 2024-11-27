@@ -56,7 +56,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec ~/.local/bin/term.sh
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -201,4 +201,6 @@ exec_always --no-startup-id /home/`id -un`/.config/polybar/launch.sh
 #gaps outer 5px
 gaps inner 5px
 smart_gaps on
+
+include ~/.config/i3/config.d/*.conf
 

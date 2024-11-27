@@ -123,3 +123,13 @@ fi
 export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Execute configurable scripts in order
+# Add scripts to .config/zsh/extra to add customization.
+# These scripts must have executable bit (+x) set
+#run-parts "$HOME/.config/zsh/extra" 2>/dev/null
+find ~/.config/zsh/extra/ -type f -print0 |
+while IFS= read -r -d '' file; do
+    source "$file"
+done
+

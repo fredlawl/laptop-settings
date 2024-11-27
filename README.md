@@ -51,6 +51,10 @@ sudo apt install \
     rofi
 ```
 
+### dotfiles-i3-alacritty
+
+Delete `~/.local/bin/term.sh` first because that's the default for i3.
+
 ### dotfiles-nvim
 
 Dependencies:
