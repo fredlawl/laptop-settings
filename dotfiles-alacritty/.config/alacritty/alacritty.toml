@@ -1,0 +1,40 @@
+
+[[keyboard.bindings]]
+action = "CreateNewWindow"
+key = "N"
+mods = "Control|Shift"
+
+[general]
+import = ["/home/fred/.config/alacritty/catppuccin-mocha.toml"]
+
+[env]
+term = "xterm-256color"
+
+[font]
+size = 8
+
+[font.bold]
+family = "CaskaydiaCove Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "CaskaydiaCove Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "CaskaydiaCove Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "CaskaydiaCove Nerd Font Mono"
+style = "Regular"
+
+[font.offset]
+x = 1
+y = 3
+
+[window]
+blur = true
+opacity = 0.9
+
+[keyboard]

@@ -28,6 +28,15 @@ For specific systems:
 
 All `dotfiles-*` depend on `dotfiles`.
 
+### dotfiles-alacritty
+
+Install via [build instructions](https://github.com/alacritty/alacritty/blob/master/INSTALL.md)
+
+TODO: Instructions on how to set i3-sensible-terminal to alacritty. I think
+the i3 dotfiles will need a setup where it can import a custom config
+settings for overwriting the defaults of i3 at end of cfg script, and add
+to dotfiles-i3-alacritty to configure the glue.
+
 ### dotfiles-i3
 
 Dependencies:
