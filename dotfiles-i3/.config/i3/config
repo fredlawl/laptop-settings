@@ -196,7 +196,7 @@ bindsym $mod+r mode "resize"
 #bar {
 #        status_command i3status
 #}
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id /home/`id -un`/.config/polybar/launch.sh
 
 #gaps outer 5px
 gaps inner 5px
