@@ -1,0 +1,38 @@
+[alias]
+    addp = add -p
+    gud = !git fetch --all && git reset --hard
+[am]
+    threeWay = true
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[commit]
+    verbose = true
+[core]
+    editor = vim
+[diff]
+    abbrev = 12
+    algorithm = histogram
+[gpg]
+    program = gpg
+[includeIf "gitdir:~/Work/**"]
+    path = ~/.work.gitconfig
+[includeIf "gitdir:~/Projects/**"]
+    path = ~/.personal.gitconfig
+[includeIf "gitdir:~/Applications/**"]
+    path = ~/.personal.gitconfig
+[init]
+    defaultBranch = main
+[log]
+    date = iso
+[merge]
+    conflictstyle = zdiff3
+[pretty]
+    fixes = Fixes: %h (\"%s\")
+    commit = %h (\"%s\")
+[rebase]
+    abbreviateCommands = true
+    autosquash = true
+[rerere]
+    enable = true
