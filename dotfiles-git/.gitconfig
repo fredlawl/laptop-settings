@@ -3,6 +3,8 @@
     gud = !git fetch --all && git reset --hard
 [am]
     threeWay = true
+[blame]
+    coloring = highlightRecent
 [color]
     branch = auto
     diff = auto
@@ -11,8 +13,8 @@
     verbose = true
 [core]
     editor = vim
-[diff]
     abbrev = 12
+[diff]
     algorithm = histogram
 [gpg]
     program = gpg
@@ -34,5 +36,6 @@
 [rebase]
     abbreviateCommands = true
     autosquash = true
+    updateRefs = true
 [rerere]
     enable = true
