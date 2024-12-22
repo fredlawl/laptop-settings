@@ -198,8 +198,9 @@ bindsym $mod+r mode "resize"
 #}
 exec_always --no-startup-id /home/`id -un`/.config/polybar/launch.sh
 
-#gaps outer 5px
-gaps inner 5px
+gaps inner 5
+#gaps inner 10
+#gaps outer 10
 smart_gaps on
 
 include ~/.config/i3/config.d/*.conf
