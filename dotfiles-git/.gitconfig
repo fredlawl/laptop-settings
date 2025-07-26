@@ -22,6 +22,8 @@
     path = ~/.work.gitconfig
 [includeIf "gitdir:~/Projects/**"]
     path = ~/.personal.gitconfig
+[includeIf "gitdir:~/Sync/**"]
+    path = ~/.personal.gitconfig
 [includeIf "gitdir:~/Applications/**"]
     path = ~/.personal.gitconfig
 [init]
