@@ -94,11 +94,7 @@ export XDG_CONFIG_DIRS=/etc/xdg
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-    export EDITOR='vim'
-else
-    export EDITOR='vim'
-fi
+export EDITOR='vim'
 
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
@@ -116,7 +112,7 @@ alias dup="docker-compose up"
 alias dfup="docker-compose -f docker-compose.override.yml up"
 alias ddown="docker-compose down"
 
-if [ "$(uname 2> /dev/null)" != "Linux" ]; then
+if [ ! $(which open &>/dev/null) ]; then
 	alias open="xdg-open"
 fi
 
