@@ -26,6 +26,10 @@
     path = ~/.personal.gitconfig
 [includeIf "gitdir:~/Applications/**"]
     path = ~/.personal.gitconfig
+[includeIf "gitdir:~/OpenSgf/**"]
+    path = ~/.personal.gitconfig
+[includeIf "gitdir:~/Sync/**"]
+    path = ~/.personal.gitconfig
 [init]
     defaultBranch = main
 [log]
