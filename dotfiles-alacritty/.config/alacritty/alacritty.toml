@@ -11,7 +11,7 @@ import = ["/home/fred/.config/alacritty/catppuccin-mocha.toml"]
 term = "xterm-256color"
 
 [font]
-size = 8
+size = 12
 
 [font.bold]
 family = "CaskaydiaCove Nerd Font Mono"
