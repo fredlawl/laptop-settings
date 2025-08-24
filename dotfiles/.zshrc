@@ -1,7 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export HOME="/home/$USER"
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:/usr/local/go/bin:$PATH
+export PATH=$PATH:$HOME/bin:$HOME/.local/bin:/usr/local/bin:/usr/local/go/bin
 export FONTCONFIG_PATH=$HOME/.local/share/fonts
 
 # Path to your oh-my-zsh installation.
